@@ -36,3 +36,20 @@ MSN：即时通信系统
 - **数据库**：
 
 ## 安装与使用
+
+
+在项目文件夹打开终端输入：
+
+启动服务器端：
+```
+go build -o server server.go user.go  main.go 
+
+./server
+```
+
+启动客户端：
+```
+go build -o client client.go 
+
+/.client
+```
